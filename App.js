@@ -1,11 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+// importar el nuevo componente
+import Saludar from './src/components/Saludar';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello World</Text>
-      <StatusBar style="auto" />
+      <Text>Curso React Native</Text>
+      <Saludar></Saludar>
+      <Saludar name ="Sebastian" edad ="27"/>
+      <Saludar name ="Fabio" edad="39"/>
     </View>
   );
 }

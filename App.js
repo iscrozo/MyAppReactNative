@@ -9,6 +9,8 @@ export default function App() {
       <Saludar></Saludar>
       <Saludar name ="Sebastian" edad ="27"/>
       <Saludar name ="Fabio" edad="39"/>
+      <Saludar></Saludar>
+      <Saludar name = "Alix" edad="28"></Saludar>
     </View>
   );
 }

@@ -10,6 +10,7 @@ export default function HomeScreen(props) {
   console.log(props);
   return (
     <SafeAreaView>
+      <Text>HomeScreen</Text>
       <Text>Estamos en HomeScreen</Text>
       <Text>Estamos en HomeScreen</Text>
       <Text>Estamos en HomeScreen</Text>

@@ -10,6 +10,7 @@ export default function SettingsScreen(props) {
 
   return (
     <SafeAreaView>
+      <Text>SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
